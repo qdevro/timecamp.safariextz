@@ -1,0 +1,38 @@
+#tc-logo {
+    background: transparent;
+    border: none;
+    float: none;
+    position: absolute;
+    margin: 3px 0px 0px -2px;
+    padding: 0px;
+}
+
+#timecamp-track-button .text {
+    padding: 0px 0px 0px 18px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#timecamp-track-button .time {
+    font-size : 12px;
+    padding : 1px 2px;
+    border-radius : 3px;
+    background-color : green;
+    color : white;
+}
+
+#tc-badge {
+    display: inline-block;
+    background-color: transparent;
+}
+
+.teamwork-settings-notice{
+    background-color: #fcf8e3;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+
+}

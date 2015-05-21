@@ -1,0 +1,28 @@
+#tc-logo {
+    margin-left: 2px;
+}
+
+#timecamp-track-button .text {
+    vertical-align: top;
+    margin-left: 0.3em;
+    width: 60px;
+    display: inline-block;
+}
+
+#timecamp-track-button .time {
+    float: right;
+    font-size: 12px;
+    padding: 1px 4px;
+    border-radius: 3px;
+    background-color: green;
+    color: white
+}
+
+#tc-badge {
+    padding: 1px 4px;
+    height: 14px;
+}
+
+#tc-integration-link {
+    margin-top: 5px;
+}

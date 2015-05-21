@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Razvan Ioan Anastasescu</string>
+	<key>Builder Version</key>
+	<string>10600.3.18</string>
+	<key>CFBundleDisplayName</key>
+	<string>TimeCamp Tracker</string>
+	<key>CFBundleIdentifier</key>
+	<string>ro.qdev.labs.safari.timecamp</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Blacklist</key>
+		<array>
+			<string>https://www.timecamp.com/*</string>
+		</array>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>scripts/common.js</string>
+			</array>
+			<key>Start</key>
+			<array>
+				<string>libraries/jquery/jquery-2.1.3.min.js</string>
+				<string>libraries/time/moment.min.js</string>
+				<string>scripts/localization.js</string>
+				<string>scripts/starting.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>TimeCamp Tracker - inserts timer buttons across different services like: Trello, Asana, Podio, etc</string>
+	<key>DeveloperIdentifier</key>
+	<string>BDVTR7NZBY</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.timecamp.com</string>
+				<string>*.trello.com</string>
+				<string>*.manageprojects.com</string>
+				<string>*.asana.com</string>
+				<string>*.insight.ly</string>
+				<string>*.pivotaltracker.com</string>
+				<string>*.podio.com</string>
+				<string>*.teamwork.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://labs.qdev.ro/safari/update.plist</string>
+	<key>Website</key>
+	<string>http://labs.qdev.ro/safari/timecamp/</string>
+</dict>
+</plist>
