@@ -18,7 +18,7 @@ It has been tested with both latest versions of Safari, but it should work on ol
 
 1. Activate the integration of your desired service under your TimeCamp account. Different steps have to be followed there, depending on the service, but they are well documented.
 2. Download & install Safari Extension:
-  - production version: [http://labs.qdev.ro/safari/timecamp.safariextz][1]. I'm waiting Apple's approval for publishing it in [Safari Extension Library]
+  - production version (direct link): [http://labs.qdev.ro/safari/timecamp.safariextz][1]. Published as well on Apple's [Safari Extension Library]
   - or you can fork, change and build your own package using the source code from this repository. You need to be subscribed on [Apple's Developer Program]
 3. You should have an open session on your TimeCamp account under Safari
   - It's needed in order to automatically obtain your TimeCamp API token, at least once.
@@ -48,5 +48,5 @@ It has been tested with both latest versions of Safari, but it should work on ol
 [Teamwork]: https://www.teamwork.com/
 [Trello]: https://trello.com/
 [Apple's Developer Program]: https://developer.apple.com/programs/safari/
-[Safari Extension Library]: https://extensions.apple.com/?category=productivity
+[Safari Extension Library]: https://extensions.apple.com/details/?id=ro.qdev.labs.safari.timecamp-BDVTR7NZBY
 [TimeCamp icon]: https://raw.githubusercontent.com/qdevro/timecamp.safariextz/master/images/icon-16.png
